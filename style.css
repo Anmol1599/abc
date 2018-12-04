@@ -1,0 +1,23 @@
+img {
+    height: inherit;
+    width: inherit;
+}
+
+
+#Klol {
+  position: relative;
+  margin: 0 auto;
+  animation:abc 1.3s infinite alternate;
+}
+
+
+
+@keyframes abc {
+  0%  { top: 4em; height: 7em; width: 8em; }
+  10% { top: 4em; height: 7em; width: 8em; }
+  25% { height: 8.15em; width: 7.9em; }
+  45% { height: 9em; width: 7.5em; }
+  65% { height: 9em; width: 7.5em; }
+  85% { height: 7em; width: 8em; }
+  100% { top: 18em; height: 5em; width: 8em; }
+}
